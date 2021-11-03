@@ -16,11 +16,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 0;
     top: 0;
     height: 44px;
     color: rgb(219, 219, 219);
     background-color: rgba(0, 0, 0, 0.801);
-    font-size: 11px;
+    font-size: 11.4px;
     font-weight: 300;
     text-decoration: none;
     letter-spacing: 0.3px;
@@ -28,8 +29,8 @@ body {
 }
 
 .nav_main li {
-    margin-left: 22px;
-    margin-right: 22px;
+    margin-left: 20.6px;
+    margin-right: 20.6px;
     transition: 200ms;
 }
 
@@ -43,12 +44,13 @@ body {
 }
 
 .logo {
-    font-size: 17px;
+    font-size: 17.3px;
     margin-top: -3px;
 }
 
 .loupe, .cart {
-    font-size: 15px;
+    font-size: 13px;
+    margin-top: -2px;
 }
 
 @media (max-width: 1097px) {
@@ -391,6 +393,10 @@ aside a:hover {
     margin-top: 30px;
 }
 
+.card_img > img {
+    max-width: 100%;
+}
+
 /* FIN CARD */
 
 /* MOVIE */
@@ -404,3 +410,96 @@ aside a:hover {
 }
 
 /* FIN MOVIE */
+
+/* FOOTER */
+
+.footer_container {
+    background-color: rgb(245, 245, 247);
+    padding: 5px 450px 0px 460px;
+    margin-top: -10px;
+}
+
+.footer_container p {
+    font-size: 11.5px;
+    color: rgb(138, 138, 138);
+    padding-bottom: 22px;
+    letter-spacing: 0.09px;
+}
+
+.footer_container .p_footer {
+    border-bottom: rgb(212, 212, 212) solid 1px;
+}
+
+.footer_container a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+}
+
+.footer_container a:hover {
+    text-decoration: underline;
+}
+
+.footer_container nav {
+    margin-top: -11px;
+    font-size: 14px;
+}
+
+.footer_container li {
+    list-style: none;
+    font-size: 11.5px;
+    line-height: 26.5px;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+    margin-left: -38px;
+    margin-right: 110px;
+    width: 100%;
+}
+
+.footer_container .list_title {
+    font-weight: 600;
+    color: rgb(42, 42, 42);
+    width: 100%;
+}
+
+.footer_container .list_title:hover {
+    text-decoration: none;
+}
+
+.footer_container .col {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.footer_moreways a {
+    color: rgb(62, 146, 231);
+}
+
+.footer_moreways a:hover {
+    text-decoration: underline;
+}
+
+.footer_container .footer_moreways {
+    border-bottom: solid 1px rgb(212, 212, 212);
+    font-size: 11.7px;
+    color: rgb(138, 138, 138);
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+}
+
+.footer_end {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.footer_end a {
+    color: rgb(93, 93, 93);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer_end a:hover {
+    text-decoration: underline;
+}
+
+/* FIN FOOTER */
